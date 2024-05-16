@@ -1,0 +1,50 @@
+/* THIS FILE CONTAINS CONTAINER STYLES ONLY. FOR THEME STYLES, LOOK IN THE THEME FOLDER */
+.delete {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    align-self: stretch;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #D7D9D3;
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+    flex: 1 0;
+}
+
+.request-delete {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    align-self: stretch;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #D7D9D3;
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+    flex: 1 0;
+}
+
+.dialog-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 10px;
+}
+
+.dialog-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 5px;
+}

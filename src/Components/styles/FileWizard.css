@@ -1,0 +1,295 @@
+/* THIS STYLESHEET CONTAINS ALL THE STYLES FOR FILEWIZARD.JS. FOR SPECIFIC CHAKRA COMPONENT STYLES PLEASE REFER TO THE THEME FOLDER */
+
+/* Default react-new-window style */
+#new-window-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.file-wizard-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 84px;
+    width: 100vw;
+    height: fit-content;
+}
+
+.stepper-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid green; */
+    padding: 30px 0px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 0;
+    gap: 10px;
+    text-align: center;
+}
+
+.step1-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    padding: 30px 0px;
+}
+
+.button-wrapper-wizard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 30px 84px 20px 84px;
+}
+
+.custom-wizard-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2B2927;
+    background-color: transparent;
+    border-radius: 5px;
+    border: #D7D9D3 1px solid;
+    padding: 15px;
+}
+
+.custom-wizard-button:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #50673D;
+    background-color: rgba(199, 219, 148, 0.60);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.custom-wizard-button-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #50673D;
+    background-color: rgba(199, 219, 148, 0.60);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.wizard-button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9890;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #716B66;
+    padding: 30px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.files-display{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background: #F4F4F2;
+}
+
+.file-rules{
+    display: flex;
+    flex-direction: column;
+}
+
+.uploaded-files-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upload-review-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ABBC7F;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 10px 10px;
+    gap: 10px;
+}
+
+.upload-review-column{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+}
+
+.button-wrapper-stretch {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.step2-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    /* border: 1px solid yellow; */
+}
+
+.bundle-accordions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+.bundle-accordions-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D7D9D3;
+    background-color: #FFF;
+}
+
+.bundle-accordions-panel-files {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 1px solid #D7D9D3;
+    word-wrap: break-word;
+}
+
+.bundle-accordions-panel-files-selectedFiles {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(199, 219, 148, 0.60);
+    border: 1px solid #ABBC7F;
+    word-wrap: break-word;
+}
+
+.metadata-preview{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.metadata-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D7D9D3;
+    background-color: #FFF;
+}
+
+.files-draggables-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F4F4F2;
+}
+
+.bundle-review { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 15px;
+}
+
+.bundle-review-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #F4F4F2;
+}
+
+.metadata-display {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    padding: 15px 15px;
+    /* background-color: #f4f4f2; */
+    border-radius: 5px;
+    border: 1px solid #D7D9D3;
+}
+
+.metadata-display-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid #D7D9D3;
+}
+
+.content-review {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 30px 0px;
+}

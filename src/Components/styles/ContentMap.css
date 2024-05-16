@@ -1,0 +1,66 @@
+/* Overwriting default ReactFlow styles */
+
+.react-flow{
+    background-color: #F4F4F2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 15px;
+}
+
+.react-flow__node{
+    background-color: transparent;
+    border: solid 1px transparent;
+    font-size: 14px;
+}
+
+.react-flow__node-output{
+    background-color: transparent;
+    border: solid 1px #D7D9D3;
+}
+
+.react-flow__handle {
+    background: #869463;
+    border: 0px
+}
+
+.react-flow__edge-path {
+    stroke: #869463;
+}
+
+.node-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.node-list-item {
+    background:transparent;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.active-node-list-item {
+    background: #C7DB94;
+    color: #324126;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.custom-node-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    border: 1px solid #D7D9D3;
+    font-size: 14px;
+    padding: 10px 10px;
+    gap: 5px;
+}

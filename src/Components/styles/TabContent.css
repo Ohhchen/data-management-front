@@ -1,0 +1,21 @@
+/* THIS FILE CONTAINS CONTAINER STYLES ONLY. FOR THEME STYLES, LOOK IN THE THEME FOLDER */
+
+.tab-main-container{
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.tab-panels::-webkit-scrollbar{
+  background-color: transparent;
+  width: 8px;
+}
+
+.tab-panels::-webkit-scrollbar-thumb{
+  background-color: rgba(199, 219, 148, 0.60);
+  border-radius: 10px;
+}

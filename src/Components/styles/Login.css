@@ -1,0 +1,40 @@
+/* THIS FILE CONTAINS CONTAINER STYLES ONLY. FOR THEME STYLES, LOOK IN THE THEME FOLDER */
+
+.parent-container{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-container{
+    /* border: yellow solid 1px; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-container{
+    /* border: red solid 1px; */
+    width: 100%;
+}
+
+.input-container{
+    /* border: red solid 1px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -3px;
+}
+
+.input{
+    /* border: red solid 1px; */
+    width:100%;
+    border-radius: 5px 5px 0px 0px;
+}

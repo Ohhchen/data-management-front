@@ -1,0 +1,27 @@
+/* THIS FILE CONTAINS CONTAINER STYLES ONLY. FOR THEME STYLES, LOOK IN THE THEME FOLDER */
+
+.tab-items-container{
+    display: flex;
+    flex-direction: column;
+    /* border: blue solid 2px; */
+}
+
+.active-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    flex: 1 0 0;
+    color: rgba(80, 103, 61, 1) !important;
+    background-color: rgba(199, 219, 148, 0.60);
+    border-radius: 5px;
+}
+
+.label-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    flex: 1 0 0;
+}

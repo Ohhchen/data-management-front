@@ -1,0 +1,14 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    background-color: #F4F4F2;
+    border-radius: 5px;
+}
+
+.button-wrapper-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

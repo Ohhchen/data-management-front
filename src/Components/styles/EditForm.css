@@ -1,0 +1,145 @@
+/* THIS FILE CONTAINS CONTAINER STYLES ONLY. FOR THEME STYLES, LOOK IN THE THEME FOLDER */
+
+.editFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #D7D9D3;
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+}
+
+.inputLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.selectLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.datePickerLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.contributorLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.rightsLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.descriptionLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    width: 100%;
+    padding: 0px;
+}
+
+.entryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #D7D9D3;
+    padding: 10px;
+    gap: 5px;
+    width: 100%;
+    height: fit-content;
+}
+
+.newEntryLayout {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+}
+
+.newRightsEntryLayout {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+}
+
+.entryResponse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    text-align: start;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.rowDisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    text-align: start;
+    width: 100%;
+}
+
+.columnDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    text-align: start;
+    width: 100%;
+}
+
+.button-wrapper-newEntry {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: fit-content;
+    gap: 10px;
+}
+
+.button-wrapper-editForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+}

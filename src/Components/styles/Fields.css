@@ -1,0 +1,28 @@
+/* THIS FILE CONTAINS CONTAINER STYLES ONLY. FOR THEME STYLES, LOOK IN THE THEME FOLDER */
+
+.accordion-list-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 1px solid red; */
+}
+
+.expanded-item{
+    background-color: #F4F4F2;
+    border: 0px transparent !important;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.css-155za0w{
+    /* Overriding chakra generated list class style */
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
